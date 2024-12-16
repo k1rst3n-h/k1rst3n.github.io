@@ -16,3 +16,26 @@ button:active {
   box-shadow: 0px 0px;
 }
 
+.otherbtn {
+  background-color: #2176FF;
+  border-radius: 2px;
+  color: #ffffff;
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.otherbtn:hover {
+  color: #2176FF;
+  background-color: #ffffff;
+  transition: color .1s ease-in, background-color .1s ease-in;
+}
+
+.otherbtn:active {
+  font-size: 18px;
+  transition: font-size .1s ease-in-out;
+}
